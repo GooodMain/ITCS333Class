@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Kindergarten Class Website Assignment</h1>
 </body>
 </html>
