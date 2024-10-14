@@ -10,23 +10,25 @@
 
 <body>
 
+    <!--Checkbox to toggle visibility, popup doesnt close without it-->
     <input type="checkbox" id="modal-toggle" class="modal-toggle">
-    
+
+    <!--Modal for welcome notification [element that shows in one page without showing in the other]-->
     <div class="modal">
         <div class="modal-content">
-            <h2>Welcome to Sunshine Kindergarten!</h2>
+            <h2>Welcome to Sunshine Kindergarten!</h2> 
             <p>We’re excited to have you here! Check out our fun activities and parent resources.</p>
-            <label for="modal-toggle" class="close">Close</label>
+            <label for="modal-toggle" class="close">Close</label> <!--Label counts as a close button-->
         </div>
     </div>
 
 
     <header>
-        <div class="logo">
+        <div class="logo"> <!--Added the title in div class for css formatting-->
             <h1>Sunshine Kindergarten</h1>
         </div>
         <nav>
-            <ul>
+            <ul><!--Navagation links-->
                 <li><a href="#home">Home</a></li>
                 <li><a href="#welcome">Welcome</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -41,7 +43,7 @@
     </header>
 
     <main>
-
+        <!--Added id for each section for nav links-->
         <section id="home">
             <h2>Home</h2>
             <p>Welcome to the Sunshine Kindergarten website! We are here to make learning fun and engaging for your
@@ -99,6 +101,7 @@
 
         <section id="gallery">
             <h2>Photo Gallery</h2>
+            <!--placeholder for images-->
             <div class="photo-gallery">
                 <img src="12345.jfif" alt="Class Activity 1">
                 <img src="555.jfif" alt="Class Activity 2">
